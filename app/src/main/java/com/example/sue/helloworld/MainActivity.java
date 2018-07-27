@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(Integer.toString(c)); // 계산 결과를 결과창에 출력한다.
                 }
                 else if(v==btn_minus){ // - 버튼을 입력했을 때
-                    a = Integer.valueOf(input1.getText().toString().trim()); // toString() 부분은 입력 받은 값을 문자열로 반환해준다.
+                    a = Integer.valueOf(input1.getText().toString().trim()); // toString() 부분은 입력 받은 값을 String형태로 해준다.
                     b = Integer.valueOf(input2.getText().toString().trim()); // trim() 부분은 공백 부분을 지워준다.
                     c = a - b; // '-' 버튼이므로 두 개의 값을 뺀다.
                     result.setText(Integer.toString(c));
